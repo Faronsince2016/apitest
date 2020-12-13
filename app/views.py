@@ -77,7 +77,7 @@ def prj_list(request):
 @login_required
 def prj_add(request):
     if request.method == 'POST':
-        name = request.POST.get('name')
+        name = request.POST.get('project_name')
         if Project.objects.filter(name=name):
             messages.error(request, "项目已存在")
         else:
