@@ -1,0 +1,37 @@
+# IDE
+.idea
+.vscode
+
+
+*.pytest_cache/
+app/assets/*
+
+# compliler
+*.pyc
+*.cpython-36.pyc
+
+__pycache__
+*/__pycache__/
+
+
+#os
+.DS_Store
+
+
+# ipconfig
+ip_location.ini
+
+# db
+*.db
+*.swp
+
+
+Pipfile.lock
+/app/config/configs/
+/app/config/dev.yaml
+uwsgi_shadow.py
+/app/tests/token_test.json
+/run.py
+/logs/
+/config/configs/
+/app/jobs/mock_record_data/
